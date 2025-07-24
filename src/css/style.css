@@ -6,3 +6,28 @@ body{
     height: 100vh;
     background-color: var(--light-grayish-blue);
 }
+
+.container-article-preview{
+    display: flex;
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image img {
+    width: 250px;
+    height: 250px; 
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;   
+}
+
+.container-info{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
