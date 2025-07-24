@@ -5,6 +5,8 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: var(--light-grayish-blue);
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
 }
 
 .container-article-preview{
