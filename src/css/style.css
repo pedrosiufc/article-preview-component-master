@@ -11,7 +11,7 @@ body{
 
 .container-article-preview{
     display: flex;
-    width: 600px;
+    width: 700px;
     height: 250px;
     background-color: white;
     border-bottom-left-radius: 5px;
@@ -31,5 +31,49 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 30px;
 }
+
+.container-info .article-title{
+    margin-bottom: 10px;
+}
+
+.container-info .article-content{
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+
+.author-information{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.author-information .photo img{
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+}
+
+.personal-information-release{
+    display: block;
+    margin-left: 10px;            
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: var(--light-grayish-blue);
+}
+
+.social-media img{
+    width: 20px;
+    height: 20px;
+}
+
+    
