@@ -1,31 +1,34 @@
-@media (max-width: 375px) {
+/* definindo o tamanho máximo da tela */
+@media (max-width: 375px) { 
+    /* colocando a main em colunas com 90% de largura e altura automática */
     .container-article-preview {
         flex-direction: column;
         width: 90%;
         height: auto;
     }
-
+    /*definindo a imagem com 100% de lagura e altura autómática alterando o border-radius para o topo da aplicação na imagem*/    
     .image img {
         width: 100%;
         height: auto;
         border-radius: 5px 5px 0 0;
     }
-
+    /* a sections container info espaçamento interno de 20px e texto alinhado da esquerda*/
     .container-info {
         padding: 20px;
         text-align: left;
     }
-
+    /*dimunindo o tamanho da fonte e colocando espaçamento*/
     .article-title h1{
         font-size: 14px;
         padding: 5px 10px;
     }
-
+    /*diminuindo a fonte*/
     .article-content p{
         font-size: 12px;
         padding: 5px 10px;
     }
-
+    
+    /*alinhando icone de redes sociais mais a esquerda*/    
     .social-media {
         margin-left: 70px;
         margin-top: 10px;
