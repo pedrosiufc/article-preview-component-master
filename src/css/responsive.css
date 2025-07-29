@@ -1,20 +1,33 @@
-/* @media (min-width: 375px){
-    .container-article-preview{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+@media (max-width: 375px) {
+    .container-article-preview {
         flex-direction: column;
-        width: 250px;
-        height: 500px;
+        width: 90%;
+        height: auto;
     }
-    .image img{        
 
-    }   
-    .container-info{
-        background-color: aqua;
+    .image img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-info {
+        padding: 20px;
+        text-align: left;
+    }
+
+    .article-title h1{
+        font-size: 14px;
+        padding: 5px 10px;
     }
 
     .article-content p{
-        background-color: yellow;
+        font-size: 12px;
+        padding: 5px 10px;
     }
-}  */
+
+    .social-media {
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+}

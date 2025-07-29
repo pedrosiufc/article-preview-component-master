@@ -11,8 +11,8 @@ body{
 
 .container-article-preview{
     display: flex;
-    width: 700px;
-    height: 250px;
+    max-width: 700px;
+    min-height: 250px;
     background-color: white;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
@@ -22,7 +22,7 @@ body{
 
 .image img {
     width: 250px;
-    height: 250px; 
+    height: 100%;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;   
 }
@@ -43,6 +43,10 @@ body{
     padding-right: 10px;
 }
 
+.container-info .article-content p{
+    color: var(--desaturated-dark-blue);
+}
+
 .author-information{
     display:flex;
     justify-content: flex-start;
@@ -60,11 +64,20 @@ body{
     margin-left: 10px;            
 }
 
+.personal-information-release p{
+    width: 120px;
+    font-weight: 700;
+}
+
+.personal-information-release span{
+    color: var(--desaturated-dark-blue);
+}
+
 .social-media{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 170px;
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -76,4 +89,4 @@ body{
     height: 20px;
 }
 
-    
+
