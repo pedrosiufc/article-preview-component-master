@@ -73,11 +73,17 @@ body{
     color: var(--desaturated-dark-blue);
 }
 
+.container-social{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* gap: 170px; */
+}
+
 .social-media{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 170px;
     border-radius: 50%;
     width: 30px;
     height: 30px;

@@ -1,36 +1,80 @@
-/* definindo o tamanho máximo da tela */
-@media (max-width: 375px) { 
-    /* colocando a main em colunas com 90% de largura e altura automática */
+@media (min-width: 600px) and (max-width: 768px)   {
+    body {
+        padding: 20px;
+    }
+
     .container-article-preview {
-        flex-direction: column;
-        width: 90%;
-        height: auto;
-    }
-    /*definindo a imagem com 100% de lagura e altura autómática alterando o border-radius para o topo da aplicação na imagem*/    
-    .image img {
+        max-width: 600px;
         width: 100%;
-        height: auto;
-        border-radius: 5px 5px 0 0;
     }
-    /* a sections container info espaçamento interno de 20px e texto alinhado da esquerda*/
+
+    .image img {
+        width: 200px;
+    }
+
+    .container-info {
+        padding: 25px;
+    }
+
+    .container-social{
+        width: 100%;
+        gap: 120px;
+               
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .container-article-preview {
+        max-width: 500px;
+    }
+
+    .image img {
+        width: 180px;
+    }
+
     .container-info {
         padding: 20px;
-        text-align: left;
     }
-    /*dimunindo o tamanho da fonte e colocando espaçamento*/
-    .article-title h1{
-        font-size: 14px;
-        padding: 5px 10px;
+
+    .container-social{
+        gap: 60px;
     }
-    /*diminuindo a fonte*/
-    .article-content p{
-        font-size: 12px;
-        padding: 5px 10px;
+}
+
+@media (max-width: 480px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 15px;
     }
-    
-    /*alinhando icone de redes sociais mais a esquerda*/    
-    .social-media {
-        margin-left: 70px;
-        margin-top: 10px;
+
+    .container-article-preview {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-info {
+        padding: 20px;
+    }
+
+    .author-information {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .personal-information-release {
+        flex: 1;
     }
 }
